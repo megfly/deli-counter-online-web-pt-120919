@@ -1,12 +1,4 @@
 def line(katz_deli)
-
-  if deli.empty?
-    puts "The line is currently empty."
-  else 
-    puts "The line is currently: 1. #{katz_deli[0]}  "
- 
-  
-   end 
 end 
 
 
