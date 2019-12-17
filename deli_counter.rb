@@ -7,10 +7,11 @@ def line(katz_deli)
 end 
 
 
-def take_a_number(katz_deli, person)
-  if katz_deli.empty?
-    katz_deli.push(person)
-    puts "Welcome, #{person}. You are number 1 in line."
+def take_a_number(katz_deli, name)
+  katz_deli.push(name)
+  position = katz_deli.index(name)
+  puts "Welcome, #{name}. You are number #{katz_deli.index(name)+1} in line."
+end 
 end 
 
 
