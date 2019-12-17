@@ -8,7 +8,7 @@ def line(katz_deli)
       list << "#{i+1}, #{x}"}
       puts "The line is currently: #{list.join(" ")}"
     
-    end
+  
    end 
 end 
 
