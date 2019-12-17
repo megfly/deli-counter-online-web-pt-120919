@@ -7,7 +7,8 @@ def line(katz_deli)
     katz_deli.each.with_index { |x, i|
       list << "#{i+1}, #{x}"}
       puts "The line is currently: #{list.join(" ")}"
-end 
+    end 
+  end 
 end 
 
 
