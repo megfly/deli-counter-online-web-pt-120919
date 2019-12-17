@@ -8,6 +8,9 @@ end
 
 
 def take_a_number(katz_deli, person)
+  if katz_deli.empty?
+    katz_deli.push(person)
+    puts "Welcome, #{person}. You are number 1 in line."
 end 
 
 
